@@ -29,7 +29,7 @@ function nav(point) {
 }
 
 const content = document.querySelector('.content');
-const menu = document.querySelector('#menu');
+const menu = document.querySelector('.menu-bg');
 const menuLogo = document.querySelector('.menu-logo');
 
 
@@ -39,14 +39,14 @@ const options = {
 
 let observer = new IntersectionObserver(contentCheck, options);
 
-function contentCheck(entries){
-    entries.forEach(entry =>{
-        if(entry.isIntersecting){
+function contentCheck(entries) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
             menu.classList.add("menu-sticky")
             menuLogo.classList.add("logo-pequena")
 
         }
-        else{
+        else {
             menu.classList.remove("menu-sticky")
             menuLogo.classList.remove("logo-pequena")
 
