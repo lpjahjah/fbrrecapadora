@@ -20,7 +20,7 @@
                 <div class="menu-logo"><img src="imgs/logo.png" class="logo"></div>
                 <nav class="items-menu">
                     <a class="menu-item" id="navSobrenos"> SOBRE NÓS </a>
-                    <a class="menu-item" id="navProcesso"> PROCESSO </a>
+                    <a class="menu-item" id="navProcessos"> PROCESSO </a>
                     <a class="menu-item" id="navBandas"> BANDAS </a>
                     <a class="menu-item" id="navContato"> CONTATO </a>
                 </nav>
@@ -42,39 +42,14 @@
                 </div>
             </div>
 
-            <!-- PROCESSO -->
+            <!-- PROCESSOS -->
             <div class="espacamentoteste">
-                <div class="clearfix" id="processo">
-                    <h1 class="title">Processo</h1>
+                <div class="clearfix" id="processos">
+                    <h1 class="title">Processos</h1>
                     <hr />
                 </div>
-                <div>
+                <div id="btnProcessos" class="areaButton">
 
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                        Launch demo modal
-                    </button>
-
-                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalCenterTitle">Titulo</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci culpa sequi aut
-                                    velit. Officiis minus aliquam aspernatur, alias, neque nisi nostrum animi suscipit
-                                    odio maxime id ratione rerum mollitia atque.
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -84,7 +59,7 @@
                     <h1 class="title">Bandas</h1>
                     <hr />
                 </div>
-                <div>
+                <div id="btnBandas" class="areaButton">
 
                 </div>
             </div>
@@ -144,16 +119,23 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <script src="js/jquery-3.4.1.min.js"></script>
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="modalBody"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 

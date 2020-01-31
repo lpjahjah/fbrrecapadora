@@ -116,11 +116,26 @@ hr{
     background-color: rgb(65, 60, 60);
 }
 
+.btnGeneral{
+    width: 250px;
+    height: 350px;
+    margin: 8px;
+}
+
 .credito{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 20px;
+}
+
+.modal-content{
+    background-color: rgb(32, 32, 32);
+}
+
+.areaButton{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .espacamentoteste{

@@ -5,8 +5,8 @@ $("#menu").click((e) => {
             nav('#sobrenos')
             break;
 
-        case 'navProcesso':
-            nav('#processo')
+        case 'navProcessos':
+            nav('#processos')
             break;
 
         case 'navBandas':
@@ -53,6 +53,42 @@ function contentCheck(entries) {
         }
     })
 }
+
+let modalData;
+
+$.getJSON('https://raw.githubusercontent.com/lpjahjah/fbrrecapadora/master/js/content.json', data => {
+    modalData = data;
+    $.each(data.processos, (key, val) => {
+        $("<button/>", {
+            id: key,
+            text: val.title,
+            type: 'button',
+            class: 'btn btn-primary btnGeneral',
+            'data-toggle': 'modal',
+            'data-target': '#modal'
+        }).appendTo("#btnProcessos")
+    });
+
+    $.each(data.bandas, (key, val) => {
+        $("<button/>", {
+            id: key,
+            text: val.name,
+            type: 'button',
+            class: 'btn btn-primary btnGeneral',
+            'data-toggle': 'modal',
+            'data-target': '#modal'
+        }).appendTo("#btnBandas")
+    });
+});
+
+function changeModal(title, text) {
+    $("#modalTitle").text(title);
+    $("#modalBody").text(text);
+}
+
+$("#btnProcessos").click((e) => {
+    changeModal(modalData.processos[$(e.target).prop('id')].title, modalData.processos[$(e.target).prop('id')].text);
+})
 
 
 observer.observe(content);

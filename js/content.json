@@ -1,0 +1,42 @@
+{
+    "processos": [
+        {
+            "title": "Limpeza",
+            "text": "Antes da inspeção inicial, o pneu é limpo para facilitar as demais etapas do processo, evitando riscos de contaminação. Após limpo todo o processo é realizado através de monovias, que transportam os pneus suspensos, sem contato com o solo, evitando a contaminação com impurezas."
+        },
+        {
+            "title": "Inspeção Inicial",
+            "text": "Para garantir os altos padrões de qualidade, os pneus são cuidadosamente inspecionados; garantindo que só aqueles em bom estado, sejam reformados, diminuindo assim o índice de reprocesso."
+        },
+        {
+            "title": "Teste por Choque",
+            "text": "O pneu passa pela máquina SISMO (SONDA1) que emite choques elétricos para: Detecção de furos Detecção de infiltrações nos manchões Detecção de micro-filamentos metálicos"
+        },
+        {
+            "title": "Raspagem",
+            "text": "O pneu é raspado em condições normais de rodagem. O desenho original é totalmente removido. Trabalhando com tornos de raspagem TRA-1, automático e gabaritado a laser que ajusta a carcaça inflada com máxima precisão. O objetivo dessa raspagem é obter uma rodagem uniforme e simétrica, reduzindo, com isso, a manutenção do veículo e ainda preparando a carcaça para receber a nova banda de rodagem. Desta forma, quanto mais perfeita ficar a circunferência do pneu, maior a sua quilometragem."
+        },
+        {
+            "title": "Escariação",
+            "text": "Nesta etapa, todas as imperfeições e danos por furos e pedras durante a vida do pneu, são removidas minuciosamente com ferramentas adequadas com máxima cautela."
+        },
+        {
+            "title": "Reforma Pré Moldado",
+            "text": "Benefícios: Maior quilometragem, 2 opções de processo - Tradicional ou *4G*, Menor prazo de entrega e Atende todos os segmentos Em seguida, a banda e coxim são aplicados no pneus inflado na sua configuração normal de trabalho, auxiliado pelo sistema centralizador de banda. A adesão da banda de borracha pelo coxim torna-se uma das partes mais resistentes do pneu, evitando o desprendimento da banda de rodagem (jacaré)."
+        },
+        {
+            "title": "Vulcanização (Reforma Pré Moldado)",
+            "text": "PRÉ MOLDADO ( À FRIO ) Utilizando baixa temperatura de vulcanização no auto clave, a nova banda de borracha é colocada na carcaça. O Pneu é encaixado em um envelope flexível e acondicionado em uma câmara de pressão para se obter uma adesão uniforme e sem deformação da banda de rodagem. As auto claves são dotadas com sistema de 3º pressão que garante mais profundidade e adesão do sulco na carcaça."
+        },
+        {
+            "title": "Inspeção Final",
+            "text": "Para garantir o alto padrão de qualidade FBR Recapadora, todos os pneus recapados passam por uma rigorosa inspeção antes de sair da linha de produção para receber o Selo de Reforma Qualificada e Garantida Respeitando o limite de conserto estabelecidos pelos fabricantes, tanto por tamanho de danos, quanto pelo número excessivo de consertos, podemos garantir a qualidade total de nossos serviços e seguirem para o mercado."
+        }
+    ],
+    "bandas": [
+        {
+            "name": "GX T 500z",
+            "text": ""
+        }
+    ]
+}
