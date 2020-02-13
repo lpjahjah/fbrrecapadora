@@ -119,7 +119,6 @@ hr{
 .btnGeneral{
     width: 250px;
     height: 350px;
-    margin: 8px;
 }
 
 .credito{
@@ -133,9 +132,25 @@ hr{
     background-color: rgb(32, 32, 32);
 }
 
-.areaButton{
-    display: flex;
-    flex-wrap: wrap;
+.btnArea{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+    margin-bottom: 7rem;
+}
+
+.slideArea{
+
+}
+
+.gradient{
+    height: 70ex;
+    background-image: linear-gradient( to right, rgb(0, 0, 0), rgb(32, 32, 32));
+}
+
+.imgSlide{
+    z-index: -1;
 }
 
 .espacamentoteste{

@@ -68,17 +68,6 @@ $.getJSON('https://raw.githubusercontent.com/lpjahjah/fbrrecapadora/master/js/co
             'data-target': '#modal'
         }).appendTo("#btnProcessos")
     });
-
-    $.each(data.bandas, (key, val) => {
-        $("<button/>", {
-            id: key,
-            text: val.name,
-            type: 'button',
-            class: 'btn btn-primary btnGeneral',
-            'data-toggle': 'modal',
-            'data-target': '#modal'
-        }).appendTo("#btnBandas")
-    });
 });
 
 function changeModal(title, text) {
